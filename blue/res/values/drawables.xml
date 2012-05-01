@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="solid_white">#ffffffff</item>
+    <item type="drawable" name="solid_black">#ff000000</item>
+    <item type="drawable" name="clear">#00000000</item>
+    <item type="drawable" name="feedback_background_color">#ff000000</item>
+    <item type="drawable" name="post_date_color">#ff888888</item>
+    <item type="drawable" name="gray_text_color">#ff999999</item>
+    <item type="drawable" name="blue_text_color">#ffc0c0c0</item>
+    <item type="drawable" name="text_color">#ffffffff</item>
+    <item type="drawable" name="login_font_color">#ffa0a0a0</item>
+    <item type="drawable" name="status_background_color">#ff000000</item>
+    <item type="drawable" name="profile_background_color">#ff000000</item>
+    <item type="drawable" name="profile_photo_background_color">#a0000000</item>
+    <item type="drawable" name="icon_bar_selected">#ffa0a0a0</item>
+    <item type="drawable" name="icon_bar_pressed">#ffffffff</item>
+    <item type="drawable" name="icon_bar_default">#ff000000</item>
+</resources>

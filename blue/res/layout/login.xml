@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#ffffff" android:orientation="vertical">
+	<com.markupartist.android.widget.ActionBar
+		xmlns:app="http://schemas.android.com/apk/res/org.meruvian.midas.android"
+		android:id="@+id/actionbarLogin" app:title="Login" style="@style/ActionBar" />
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="fill_parent" android:paddingLeft="10dip"
+		android:paddingRight="10dip" android:orientation="vertical"
+		android:layout_gravity="center" android:layout_height="0dp"
+		android:layout_weight="1">
+		<TextView android:text="Username" style="@style/TextBody"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:paddingTop="15dip" android:textSize="14dip"></TextView>
+		<EditText android:layout_width="fill_parent" android:id="@+id/username"
+			android:layout_height="wrap_content" android:paddingTop="10dip" />
+		<TextView android:text="Password" style="@style/TextBody"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:paddingTop="10dip" android:textSize="14dip"></TextView>
+		<EditText android:layout_width="fill_parent" android:id="@+id/password"
+			android:layout_height="wrap_content" android:paddingTop="10dip"
+			android:password="true" />
+	</LinearLayout>
+	<LinearLayout style="@android:style/ButtonBar"
+		android:orientation="horizontal" android:gravity="center_vertical|center_horizontal"
+		android:layout_width="fill_parent" android:baselineAligned="true"
+		android:layout_height="wrap_content" android:layout_gravity="left">
+		<Button android:textStyle="bold" android:textColor="#FFFFFF"
+			android:id="@+id/cancelButton" android:background="@drawable/blue_button_background"
+			android:padding="10.0dip" android:layout_width="100dip"
+			android:layout_height="wrap_content" android:text="Skip" />
+		<View android:layout_width="10dip" android:layout_height="40dip" />
+		<Button android:textStyle="bold" android:textColor="#FFFFFF"
+			android:id="@+id/signInButton" android:background="@drawable/blue_button_background"
+			android:padding="10.0dip" android:layout_width="100dip"
+			android:layout_height="wrap_content" android:text="Sign In" />
+	</LinearLayout>
+</LinearLayout>
