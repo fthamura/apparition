@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFFFFF">
+	<com.markupartist.android.widget.ActionBar
+		xmlns:app="http://schemas.android.com/apk/res/org.meruvian.midas.android"
+		android:id="@+id/actionbarMain" app:title="Meruvian" style="@style/ActionBar" />
+	<LinearLayout android:id="@+id/formTitle"
+		android:layout_width="wrap_content" android:layout_height="70px"
+		android:orientation="vertical" android:gravity="bottom"
+		android:layout_alignParentRight="true" android:layout_below="@id/actionbarMain">
+		<TextView android:text="Meruvian Midas" android:id="@+id/tittleForm"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="left" style="@style/TextBody" />
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/underline_aqua" />
+	</LinearLayout>
+	<TextView style="@style/TextBody" android:id="@+id/loginStatus"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textSize="14dip" android:paddingRight="10dip"
+		android:paddingTop="10dip" android:layout_below="@id/formTitle"
+		android:layout_alignParentRight="true"></TextView>
+	<ScrollView android:id="@+id/scrollView12"
+		android:layout_below="@id/loginStatus" android:layout_height="wrap_content"
+		android:layout_width="wrap_content">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:background="#ffffff"
+			android:orientation="vertical">
+
+			<TextView android:id="@+id/lib" android:layout_width="wrap_content"
+				android:text="@string/disc" android:layout_height="wrap_content"
+				android:textColor="#000000" android:textSize="14dip"
+				android:lineSpacingExtra="8dip" android:paddingTop="17px"
+				android:padding="10px"></TextView>
+			<EditText android:layout_height="wrap_content" android:id="@+id/editText1"
+				android:layout_width="fill_parent" android:layout_margin="10px"/>
+			<ListView android:id="@+id/ListViewMain"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginLeft="10px" android:layout_marginRight="10px"
+				android:layout_below="@+id/lib" android:divider="#ffffff"
+				android:fadingEdge="none" android:footerDividersEnabled="true"
+				android:headerDividersEnabled="true" />
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>
