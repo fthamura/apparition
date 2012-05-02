@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#ffffff" android:orientation="vertical">
+	<com.markupartist.android.widget.ActionBar
+		xmlns:app="http://schemas.android.com/apk/res/org.meruvian.midas.android"
+		android:id="@+id/actionbarLogin" app:title="Meruvian" style="@style/ActionBar" />
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="fill_parent" android:paddingLeft="10dip"
+		android:paddingRight="10dip" android:orientation="vertical"
+		android:layout_gravity="center" android:layout_height="0dp"
+		android:layout_weight="1">
+		<TextView android:text="Survey Meruvian" style="@style/TextBody"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:paddingTop="15dip" android:textSize="14dip"
+			android:textStyle="bold"></TextView>
+		<TextView android:text="2. Singgle Answer (Bullets)" style="@style/TextBody"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:paddingTop="15dip" android:textSize="14dip"></TextView>
+		<RadioGroup android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<RadioButton android:id="@+id/r1" android:text=" Answer 1" android:textColor="#000000"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:paddingTop="15dip" android:layout_marginLeft="10dip"
+				android:textSize="14dip"></RadioButton>
+			<RadioButton android:id="@+id/r2" android:text=" Answer 2" android:textColor="#000000"
+				android:layout_marginLeft="10dip" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:paddingTop="15dip"
+				android:textSize="14dip"></RadioButton>
+			<RadioButton android:id="@+id/r3" android:text=" Answer 3" android:textColor="#000000"
+				android:layout_marginLeft="10dip" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:paddingTop="15dip"
+				android:textSize="14dip"></RadioButton>
+		</RadioGroup>
+	</LinearLayout>
+
+	<Button android:textStyle="bold" android:textColor="#FFFFFF"
+		android:id="@+id/b" android:background="@drawable/green_button_background"
+		android:layout_margin="10.0dip" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Next Question"
+		android:layout_gravity="right" />
+</LinearLayout>
