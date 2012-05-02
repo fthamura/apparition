@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MidasActivity!</string>
+    <string name="app_name">Midas</string>
+    <string name="about">
+		\nMeruvian Foundation is a non profit organization
+		that is dedicate to develop people skill to filling the skillset of
+		people to get a global standard and bring influencing to their
+		ecosystem.
+		We facilitates the efforts of private sector entities to
+		support the
+		development of national education through their CSR
+		(Corporate Social
+		Responsibility) programs by managing their CSR
+		funds.We also provide
+		Human Resource Development to close the gap
+		between industries and
+		educations, which stronger in this millenium.
+		As
+		one of the biggest Java Research Centre in Indonesia.We have
+		dedicated
+		of our research product for support Open Source program in
+		Indonesia.Now we have some products which ready to use for your
+		bussiness
+		\n
+		\n
+		Our Services: \n
+		http://www.mervpolis.com
+		(Marketspace) \n
+		http://www.meruvian.org \n(Foundation) \n
+		http://www.meruvian.net
+		\n(Partnership) \n
+		http://www.meruvian.com
+		\n(Education) \n
+    </string>
+    <string name="disc">
+		Meruvian midas adalah sebuah sebuah project open source di gunakan untuk memudahkan mendesain layout di android dengan mudah.
+		di project ini sudah di sediakan contoh-contoh layout, drawable, dan variable-variable xml seperti color dimension dll.
+	</string>
+    <string name="help">Dalam soal terdiri 4 ( Empat ) buah pilihan jawaban
+		di kanan dan di kiri, untuk cara pengisiannya anda tinggal memilih
+		satu jawaban di kanan dan satu jawaban di kiri.
+		Contoh :</string>
+
+</resources>

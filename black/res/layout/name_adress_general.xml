@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#ffffff" android:orientation="vertical">
+	<com.markupartist.android.widget.ActionBar
+		xmlns:app="http://schemas.android.com/apk/res/org.meruvian.midas.android"
+		android:id="@+id/actionbarLogin" app:title="Meruvian" style="@style/ActionBar" />
+	<ScrollView android:id="@+id/scrollView12"
+		android:layout_below="@id/loginStatus" android:layout_height="wrap_content"
+		android:layout_width="fill_parent">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:background="#ffffff"
+			android:orientation="vertical" android:paddingRight="10dip">
+			<TextView android:layout_marginLeft="10dip" android:text="Survey Meruvian"
+				style="@style/TextBody" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:paddingTop="15dip"
+				android:textSize="14dip" android:textStyle="bold"></TextView>
+			<TextView android:text="4. Name Address (General)" style="@style/TextBody"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginLeft="10dip" android:paddingTop="15dip"
+				android:textSize="14dip"></TextView>
+			<TextView android:layout_width="fill_parent"
+				android:textColor="#000000" android:text="Name"
+				android:layout_height="wrap_content"
+				android:paddingTop="15dip" android:layout_marginLeft="10dip"></TextView>
+			<EditText android:layout_width="fill_parent"
+				android:textColor="#000000" android:layout_height="wrap_content"
+				android:id="@+id/name" android:paddingTop="15dip"
+				android:layout_marginLeft="10dip"></EditText>
+
+			<TextView android:layout_width="fill_parent"
+				android:textColor="#000000" android:text="Email"
+				android:layout_height="wrap_content"
+				android:paddingTop="15dip" android:layout_marginLeft="10dip"></TextView>
+			<EditText android:layout_width="fill_parent"
+				android:textColor="#000000" android:layout_height="wrap_content"
+				android:id="@+id/email" android:paddingTop="15dip"
+				android:layout_marginLeft="10dip"></EditText>
+
+			<TextView android:layout_width="fill_parent"
+				android:textColor="#000000" android:text="Company"
+				android:layout_height="wrap_content"
+				android:paddingTop="15dip" android:layout_marginLeft="10dip"></TextView>
+			<EditText android:layout_width="fill_parent"
+				android:textColor="#000000" android:layout_height="wrap_content"
+				android:id="@+id/company" android:paddingTop="15dip"
+				android:layout_marginLeft="10dip"></EditText>
+
+			<TextView android:layout_width="fill_parent"
+				android:textColor="#000000" android:text="Country"
+				android:layout_height="wrap_content"
+				android:paddingTop="15dip" android:layout_marginLeft="10dip"></TextView>
+			<EditText android:layout_width="fill_parent"
+				android:textColor="#000000" android:layout_height="wrap_content"
+				android:id="@+id/country" android:paddingTop="15dip"
+				android:layout_marginLeft="10dip"></EditText>
+
+			<TextView android:layout_width="fill_parent"
+				android:textColor="#000000" android:text="City"
+				android:layout_height="wrap_content"
+				android:paddingTop="15dip" android:layout_marginLeft="10dip"></TextView>
+			<EditText android:layout_width="fill_parent"
+				android:textColor="#000000" android:layout_height="wrap_content"
+				android:id="@+id/city" android:paddingTop="15dip"
+				android:layout_marginLeft="10dip"></EditText>
+
+			<TextView android:layout_width="fill_parent"
+				android:textColor="#000000" android:text="State"
+				android:layout_height="wrap_content"
+				android:paddingTop="15dip" android:layout_marginLeft="10dip"></TextView>
+			<EditText android:layout_width="fill_parent"
+				android:textColor="#000000" android:layout_height="wrap_content"
+				android:id="@+id/state" android:paddingTop="15dip"
+				android:layout_marginLeft="10dip"></EditText>
+
+			<TextView android:layout_width="fill_parent"
+				android:textColor="#000000" android:text="Zip"
+				android:layout_height="wrap_content" android:paddingTop="15dip"
+				android:layout_marginLeft="10dip"></TextView>
+			<EditText android:layout_width="fill_parent"
+				android:textColor="#000000" android:layout_height="wrap_content"
+				android:id="@+id/zip" android:paddingTop="15dip"
+				android:layout_marginLeft="10dip"></EditText>
+			<Button android:textStyle="bold" android:textColor="#FFFFFF"
+				android:id="@+id/f" android:background="@drawable/black_button_background"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="Next Question" android:layout_gravity="right"
+				android:layout_marginBottom="10dip" />
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>
