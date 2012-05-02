@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Application Setting">
+		<ListPreference android:title="Language"
+			android:summary="Change application language" android:key="listPref"
+			android:defaultValue="" android:entries="@array/listArray"
+			android:entryValues="@array/listValues" />
+		<Preference android:title="Clear Cookies Data"
+			android:summary="Reset facebook session and login information" android:key="clearPref" />
+	</PreferenceCategory>
+</PreferenceScreen>
