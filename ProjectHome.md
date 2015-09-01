@@ -1,0 +1,1 @@
+Meruvian Midas Theme to adopt Spectrum of Coloring
